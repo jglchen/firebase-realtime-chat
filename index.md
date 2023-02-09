@@ -15,6 +15,7 @@ We can successfully build a real-time chat application with [Next.js](https://ne
 
 In this demonstration, we build a real-time chat application with [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging). The Firebase Cloud Messaging(FCM) JavaScript API lets you receive notification messages in web apps running in browsers that support the [Push API](https://www.w3.org/TR/push-api/). This includes the browser versions listed in this [support matrix](https://caniuse.com/push-api) and Chrome extensions via the Push API.
 
+[![firebase-realtime-chat-screenshot](/images/firebase-realtime-chat-screenshot.png)](https://firebase-realtime-chat.vercel.app)
 
 ### [View the App](https://firebase-realtime-chat.vercel.app)
 ### [App GitHub](https://github.com/jglchen/firebase-realtime-chat)
