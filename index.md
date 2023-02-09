@@ -21,3 +21,5 @@ In this demonstration, we build a real-time chat application with [Firebase Clou
 ### [App GitHub](https://github.com/jglchen/firebase-realtime-chat)
 ### Docker: docker run -p 3000:3000 jglchen/firebase-realtime-chat
 ### back To [Series Home](https://jglchen.github.io/)
+
+{% include giscus.html %}
