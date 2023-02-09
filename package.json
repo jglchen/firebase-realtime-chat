@@ -1,0 +1,36 @@
+{
+  "name": "firebase-realtime-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prestart": "cra-append-sw --mode dev --env ./.env.local ./firebase-messaging-sw.js",
+    "prebuild": "cra-append-sw --mode build --env ./.env.local ./firebase-messaging-sw.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "axios": "^1.1.3",
+    "cra-append-sw": "^2.7.0",
+    "express": "^4.18.2",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "localforage": "^1.10.0",
+    "next": "13.0.2",
+    "randomuser": "^1.2.2",
+    "react": "18.2.0",
+    "react-beforeunload": "^2.5.3",
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.3",
+    "store2": "^2.14.2",
+    "swr": "^1.3.0",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@types/react-beforeunload": "^2.1.1"
+  }
+}
